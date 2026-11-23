@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "topics": [
+    {"slug":"product","name":"产品与规划","description":"需求、路线图、交付范围"},
+    {"slug":"engineering","name":"研发与架构","description":"技术方案、系统设计、故障与演进"},
+    {"slug":"collaboration","name":"会议与协作","description":"跨团队沟通、分工与决策"},
+    {"slug":"operations","name":"运营与执行","description":"流程、运营动作与效果观察"},
+    {"slug":"research","name":"研究与探索","description":"调研、技术评估和待验证假设"},
+    {"slug":"management","name":"组织与管理","description":"资源、规则和协作机制"}
+  ],
+  "kinds": [
+    {"slug":"meeting","name":"会议记录"},
+    {"slug":"daily","name":"工作日志"},
+    {"slug":"weekly","name":"周度复盘"},
+    {"slug":"project","name":"专题笔记"}
+  ]
+}
