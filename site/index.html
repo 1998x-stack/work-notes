@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Work Notes：按日期和主题查阅经过审核的会议纪要、工作记录与视觉化知识档案。">
+  <title>Work Notes · 把工作的来龙去脉讲清楚</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#archive">跳转到内容档案</a>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Work Notes 首页"><span class="brand-icon" aria-hidden="true">W<span>·</span></span><span>WORK NOTES</span></a>
+    <nav aria-label="主导航"><a href="#method">整理方法</a><a href="#topics">主题地图</a><a href="#archive">时间档案</a><a class="nav-demo" href="demo.html">查看演示 <span aria-hidden="true">↗</span></a></nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> A LIVING WORK ARCHIVE <span class="edition">/ 001</span></div>
+        <h1 id="hero-title">让每一次讨论，<br><em>留下清晰的脉络。</em></h1>
+        <p class="hero-dek">会议、录音、工作思考，不只要被记录，更要能够被理解和找回。以时间发现来龙去脉，以主题连接重要观点。</p>
+        <div class="hero-actions">
+          <a class="primary-link" href="#archive">浏览时间档案 <span aria-hidden="true">↘</span></a>
+          <a class="secondary-link" href="demo.html">体验一篇视觉笔记 <span aria-hidden="true">→</span></a>
+        </div>
+        <p class="hero-footnote"><span class="shield" aria-hidden="true">◈</span> 仅展示经过授权的公开内容 · 未经审核的录音不会出现在这里</p>
+      </div>
+      <figure class="hero-art">
+        <svg viewBox="0 0 640 480" role="img" aria-labelledby="hero-svg-title hero-svg-desc" xmlns="http://www.w3.org/2000/svg">
+          <title id="hero-svg-title">工作信息从原始讨论变为可检索知识的示意图</title>
+          <desc id="hero-svg-desc">左侧是原始内容输入，经过信息整理与审阅，右侧成为清晰的行动、决定与知识归档；这仅为流程示意，没有实际业务数据。</desc>
+          <defs><pattern id="tiny-grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#cad8d5" stroke-width="0.8"/></pattern><marker id="arrowhead" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0L6 3 0 6" fill="none" stroke="#56887f" stroke-width="1.6"/></marker></defs>
+          <rect x="0" y="0" width="640" height="480" rx="24" fill="#e3ede8"/><rect x="0" y="0" width="640" height="480" fill="url(#tiny-grid)" opacity=".5"/>
+          <text x="38" y="48" fill="#63857c" font-size="12" letter-spacing="3">FROM FRAGMENTS TO CLARITY</text>
+          <g transform="translate(40 98)">
+            <rect width="155" height="260" rx="15" fill="#f7f6f0" stroke="#cbd9d1"/>
+            <text x="23" y="35" fill="#33554f" font-size="14" font-weight="700">01 / 原始表达</text>
+            <g stroke="#b3c5bf" stroke-width="4" stroke-linecap="round">
+              <path d="M24 68H113"/><path d="M24 90H88"/><path d="M24 112H119"/><path d="M24 134H72"/><path d="M24 156H126"/><path d="M24 178H98"/>
+            </g>
+            <rect x="22" y="210" width="109" height="26" rx="13" fill="#e6e9e1"/><text x="76" y="228" fill="#5d7770" font-size="12" text-anchor="middle">口述 · 转写</text>
+          </g>
+          <path d="M215 228H265" fill="none" stroke="#56887f" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+          <g transform="translate(274 121)">
+            <rect width="119" height="214" rx="59" fill="#3e7169"/>
+            <circle cx="60" cy="64" r="31" fill="#b7d6c9"/>
+            <path d="M45 64L56 75 76 50" fill="none" stroke="#21574e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="60" y="119" fill="#fff" text-anchor="middle" font-size="14" font-weight="700">语义整理</text>
+            <text x="60" y="146" fill="#d2e7dd" text-anchor="middle" font-size="12">事实 / 判断</text>
+            <text x="60" y="168" fill="#d2e7dd" text-anchor="middle" font-size="12">脱敏 / 审核</text>
+          </g>
+          <path d="M402 228H438" fill="none" stroke="#56887f" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+          <g transform="translate(449 98)">
+            <rect width="153" height="260" rx="15" fill="#f9faf4" stroke="#b6d2c6"/>
+            <text x="18" y="35" fill="#33554f" font-size="14" font-weight="700">02 / 结构化知识</text>
+            <rect x="18" y="53" width="117" height="49" rx="7" fill="#dcebe4"/>
+            <text x="31" y="75" fill="#3a7467" font-size="13">◆ 关键结论</text><text x="31" y="92" fill="#5c8074" font-size="11">保留不确定性</text>
+            <rect x="18" y="112" width="117" height="49" rx="7" fill="#eee7d9"/>
+            <text x="31" y="135" fill="#a16a43" font-size="13">◇ 行动线索</text><text x="31" y="152" fill="#9f846d" font-size="11">职责与截止日</text>
+            <rect x="18" y="171" width="117" height="49" rx="7" fill="#e6e5f0"/>
+            <text x="31" y="195" fill="#74658c" font-size="13">↗ 关联主题</text><text x="31" y="211" fill="#8a7b9b" font-size="11">按时间重新找到</text>
+          </g>
+          <text x="320" y="418" text-anchor="middle" fill="#648079" font-size="12">这是一张结构示意图，不代表真实会议数量或成果</text>
+        </svg>
+        <figcaption><span class="dot"></span> KNOWLEDGE FLOW / EXPLANATORY MODEL</figcaption>
+      </figure>
+    </section>
+
+    <section class="numbers" aria-label="公开档案概览">
+      <div><span class="stat-label">已公开视觉笔记</span><strong id="total-count">{{TOTAL_COUNT}}</strong><span class="stat-sub">PUBLIC NOTES</span></div>
+      <div><span class="stat-label">会议记录</span><strong>{{MEETING_COUNT}}</strong><span class="stat-sub">MEETING NOTES</span></div>
+      <div><span class="stat-label">已涉及主题</span><strong>{{ACTIVE_TOPIC_COUNT}}</strong><span class="stat-sub">ACTIVE TOPICS</span></div>
+      <div class="numbers-note"><span class="asterisk">✳</span><p>公开记录按实际文章自动统计。<br>未发布的内部会议不会计入。</p></div>
+    </section>
+
+    <section id="topics" class="topics-section" aria-labelledby="topics-heading">
+      <div class="section-topline"><span>01 / THE TOPIC MAP</span><span>按主题理解工作</span></div>
+      <div class="section-heading"><h2 id="topics-heading">从问题出发，连接讨论。</h2><p>相同主题的会议和工作记录，会在这里跨越日期聚合。点击主题，可直接筛选时间档案。</p></div>
+      <div class="topic-grid" id="topic-grid">{{TOPIC_NAV}}</div>
+    </section>
+
+    <section class="archive-section" id="archive" aria-labelledby="archive-heading">
+      <div class="section-topline"><span>02 / THE CHRONOLOGICAL ARCHIVE</span><span>按时间找回上下文</span></div>
+      <div class="section-heading archive-title-row"><div><h2 id="archive-heading">时间，会把线索串起来。</h2><p>从某一天进入，回看会议、判断、行动及尚待回答的问题。</p></div><span class="archive-count"><b id="visible-count">{{TOTAL_COUNT}}</b> 条匹配记录</span></div>
+
+      <form class="filters" id="archive-filters" role="search" aria-label="筛选公开工作笔记">
+        <div class="filter-field search-field"><label for="search">搜索全文摘要</label><input id="search" type="search" placeholder="关键词、主题或讨论问题…" autocomplete="off"></div>
+        <div class="filter-field"><label for="month">月份</label><select id="month"><option value="">全部月份</option>{{MONTH_OPTIONS}}</select></div>
+        <div class="filter-field"><label for="topic">主题</label><select id="topic"><option value="">全部主题</option>{{TOPIC_OPTIONS}}</select></div>
+        <div class="filter-field"><label for="kind">类型</label><select id="kind"><option value="">全部类型</option>{{KIND_OPTIONS}}</select></div>
+        <div class="filter-field"><label for="date-from">起始日期</label><input id="date-from" type="date"></div>
+        <div class="filter-field"><label for="date-to">结束日期</label><input id="date-to" type="date"></div>
+        <button class="clear-filters" id="reset-filters" type="reset">清除筛选 <span aria-hidden="true">↺</span></button>
+      </form>
+
+      <div class="archive-grid">
+        <aside class="archive-aside" aria-label="时间档案说明"><div class="aside-sticky"><span class="aside-label">READING THE ARCHIVE</span><p>01<br><span>先找到日期</span></p><p>02<br><span>再沿着主题</span></p><p>03<br><span>回到决策依据</span></p><div class="aside-line"></div><small>不追求记录数量，关注一次讨论留下的真正信息。</small></div></aside>
+        <div class="archive-content" id="archive-list">
+          {{ARCHIVE_CONTENT}}
+          <div class="filter-empty" id="filter-empty" hidden>没有符合条件的记录。试试扩大日期范围或切换主题。</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="method" class="method" aria-labelledby="method-heading">
+      <div class="section-topline"><span>03 / A METHOD, NOT A TEMPLATE</span><span>内容如何产生</span></div>
+      <h2 id="method-heading">真正有用的笔记，<br>始于对事实的尊重。</h2>
+      <div class="method-grid">
+        <article><span class="method-index">01 —</span><div class="method-symbol">◎</div><h3>保留原意</h3><p>区分说了什么、决定了什么、仍有哪些疑问。不把口述中的可能性写成已完成的结果。</p></article>
+        <article><span class="method-index">02 —</span><div class="method-symbol">⌁</div><h3>解释关系</h3><p>用独立的 SVG 呈现因果假设、决策分支与系统依赖。图解帮助理解，而不是装饰。</p></article>
+        <article><span class="method-index">03 —</span><div class="method-symbol">◇</div><h3>审阅后发表</h3><p>内部资料默认不公开。只有明确批准的脱敏摘要才进入公开档案和 GitHub Pages。</p></article>
+      </div>
+    </section>
+
+    <section class="endnote"><span class="endnote-mark">“</span><p>不是让每场会议都有一份漂亮纪要，<br>而是让重要讨论在未来仍然<strong>可以被理解、核对和继续。</strong></p><a href="demo.html">打开合成视觉示例 <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="footer"><span><strong>WORK NOTES</strong> <span class="footer-dot">·</span> Visual knowledge archive</span><span>参考 xm-journal 的内容组织方法 · 原创视觉设计</span><a href="https://github.com/1998x-stack/work-notes">GitHub 源码 <span aria-hidden="true">↗</span></a></footer>
+</body>
+</html>
