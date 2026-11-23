@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="__SUMMARY__">
+  <title>__TITLE__ | Work Notes</title>
+
+  <!-- Required: user-approved, sanitized text only.
+       Default remains non-public until an explicit release has been verified. -->
+  <meta name="notes:title" content="__TITLE__">
+  <meta name="notes:date" content="__YYYY-MM-DD__">
+  <meta name="notes:summary" content="__SUMMARY__">
+  <meta name="notes:kind" content="__KIND_SLUG__">
+  <meta name="notes:topics" content="__TOPIC1__,__TOPIC2__">
+  <meta name="notes:tags" content="">
+  <meta name="notes:source" content="notes/meetings/__YEAR__/__MONTH__/__YYYY-MM-DD__-__SLUG__.md">
+  <meta name="notes:visibility" content="private">
+  <meta name="notes:release" content="unreviewed">
+  <!-- From posts/YYYY/MM/YYYY-MM-DD-slug/index.html to the generated site root. -->
+  <link rel="stylesheet" href="../../../../assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">跳转到正文</a>
+  <header class="topbar">
+    <a class="brand" href="../../../../"><span class="brand-icon" aria-hidden="true">W<span>·</span></span><span>WORK NOTES</span></a>
+    <nav aria-label="文章导航"><a class="nav-demo" href="../../../../">返回档案首页 ↗</a></nav>
+  </header>
+  <main class="article-page" id="content">
+    <a class="article-back" href="../../../../">← 时间档案</a>
+    <header class="article-hero">
+      <span class="article-label">__TYPE_LABEL__ · 待审阅模板</span>
+      <h1>__TITLE__</h1>
+      <p class="article-dek">__SUMMARY__</p>
+      <div class="article-meta"><span>__YYYY-MM-DD__</span><span>__TOPIC_LABELS__</span><span>内容状态：待确认</span></div>
+    </header>
+    <div class="article-layout">
+      <nav class="article-toc" aria-label="章节目录">
+        <strong>IN THIS NOTE</strong>
+        <a href="#context">01 · 问题与背景</a>
+        <a href="#evidence">02 · 事实与来源</a>
+        <a href="#model">03 · 关系与可视化</a>
+        <a href="#outcome">04 · 结论与待办</a>
+      </nav>
+      <article class="article-body">
+        <section id="context">
+          <h2>01. 从真实问题开始</h2>
+          <p class="lead">__VERIFIED_CONTEXT__</p>
+          <p>__BACKGROUND_AND_UNCERTAINTY__</p>
+        </section>
+        <section id="evidence">
+          <h2>02. 哪些内容可以确认？</h2>
+          <p>__STATEMENTS_WITH_CLAIM_IDS__</p>
+          <div class="fact-grid">
+            <div><b>明确陈述</b><p>__VERIFIED_FACT__</p></div>
+            <div><b>待确认事项</b><p>__OPEN_QUESTION__</p></div>
+          </div>
+        </section>
+        <section id="model">
+          <h2>03. 用图解释关键关系</h2>
+          <p>__FIGURE_QUESTION_AND_EXPLANATION__</p>
+          <!-- Replace this placeholder figure with an original, article-specific SVG.
+               Do not treat this placeholder as factual evidence. -->
+          <figure>
+            <svg viewBox="0 0 700 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="diagram-title diagram-desc">
+              <title id="diagram-title">待替换的文章可视化占位图</title>
+              <desc id="diagram-desc">此图仅标注原创图应放置的位置，不表示真实会议关系。发布前必须替换为根据已核实内容制作的原创图解。</desc>
+              <rect width="700" height="180" fill="#edf3ed"/>
+              <rect x="115" y="42" width="470" height="96" rx="12" fill="#f8faf5" stroke="#a8c5b8"/>
+              <text x="350" y="84" text-anchor="middle" font-size="20" fill="#396a60">原创 SVG 位置</text>
+              <text x="350" y="114" text-anchor="middle" font-size="14" fill="#718e80">发布前绘制真实关系并更新图注</text>
+            </svg>
+            <figcaption>图 1 · 待替换示例占位；不能作为正式工作结论。</figcaption>
+          </figure>
+        </section>
+        <section id="outcome">
+          <h2>04. 已决定什么，下一步是什么？</h2>
+          <p>__DECISION_WITH_SOURCE_OR_EXPLICIT_NONE__</p>
+          <table><thead><tr><th>事项</th><th>负责人</th><th>截止日期</th><th>状态</th></tr></thead>
+          <tbody><tr><td>__ACTION__</td><td>未指定</td><td>未指定</td><td>待确认</td></tr></tbody></table>
+          <p class="disclaimer">本文必须在内容和审批确认后才能公开；发布版本应删去所有占位文本。</p>
+        </section>
+      </article>
+    </div>
+  </main>
+  <footer class="footer"><span><strong>WORK NOTES</strong></span><span>逐条陈述可回溯至经审阅来源</span><a href="../../../../">返回首页 ↗</a></footer>
+</body>
+</html>

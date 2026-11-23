@@ -50,6 +50,8 @@ description: Faithfully transform authorized, sanitized meeting transcripts, spo
 
 ### Gate 4 — HTML 制作
 
+使用 assets/templates/article.html 作为可审计起点（默认 private/unreviewed），按具体内容替换所有占位与图解，不得直接发布模板占位图；详见 docs/publishing.md。
+
 用语义 HTML、段落分层、文章目录和图注；原创 SVG 必须 viewBox/title/desc；桌面、移动端和打印都可读；JS 只做有意义交互，脱离 JS 仍须可读；本地资源、无需第三方网络。每个文章可拥有独立配色/结构，但共享可访问性规范。
 
 ### Gate 5 — 证据与纠错

@@ -70,6 +70,10 @@ work-notes/
 
 审核内容后，**另行明确授权**哪些部分适合公开，才执行 HTML 生成与提交。不要将“让我整理会议”和“允许公开会议”视为同一件事。
 
+## 后续新增会议文章
+
+请参照 [逐篇发布操作手册](docs/publishing.md) 与 [文章 HTML 模板](skills/olah-style-work-notes/assets/templates/article.html)；默认是私有待审阅稿，只有明确批准的脱敏文本才能进入公开目录。
+
 ## 本地构建和验收
 
 Python 3.11+；构建、静态验证和单测不需要第三方 Python 包。
